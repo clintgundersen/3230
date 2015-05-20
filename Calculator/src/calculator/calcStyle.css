@@ -1,0 +1,73 @@
+#display
+{
+    -fx-background-radius: 0;
+    -fx-background-color: #3D7A99;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 22;
+}
+
+.button 
+{
+    -fx-background-radius: 0;
+    -fx-font-family: "Arial";
+    -fx-font-size: 25;
+}
+
+#numbergrid
+{
+    -fx-background-color: #3D7A99;
+}
+
+#extra
+{
+    -fx-background-color: #A3A3CC;
+    -fx-font-size: 20;
+}
+
+#extra:pressed
+{
+    -fx-background-color:linear-gradient(to bottom, derive(-fx-color,-25%) 0%, 
+        derive(-fx-color,-25%) 50%, 
+        derive(-fx-color,-15%) 75%, 
+        derive(-fx-color,-10%) 100%);
+}
+
+#action
+{
+    -fx-background-color: #99CCFF;
+}
+
+#action:pressed
+{
+    -fx-background-color:linear-gradient(to bottom, derive(-fx-color,-25%) 0%, 
+        derive(-fx-color,-25%) 50%, 
+        derive(-fx-color,-15%) 75%, 
+        derive(-fx-color,-10%) 100%);
+}
+
+#math
+{
+    -fx-background-color: #FFA319;
+}
+
+#math:pressed
+{
+    -fx-background-color:linear-gradient(to bottom, derive(-fx-color,-25%) 0%, 
+        derive(-fx-color,-25%) 50%, 
+        derive(-fx-color,-15%) 75%, 
+        derive(-fx-color,-10%) 100%);
+}
+
+#number
+{
+    -fx-background-color: #D1D1FF;
+}
+
+#number:pressed
+{
+    -fx-background-color:linear-gradient(to bottom, derive(-fx-color,-25%) 0%, 
+        derive(-fx-color,-25%) 50%, 
+        derive(-fx-color,-15%) 75%, 
+        derive(-fx-color,-10%) 100%);
+}
